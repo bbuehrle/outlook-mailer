@@ -15,5 +15,11 @@
             "email": "bbueh02@outlook.com"
         }
     ],
+    "autoload": {
+        "psr-4": { "Symfony\\Component\\Mailer\\Bridge\\Outlook\\": "" },
+	"exclude-from-classmap": [
+	    "/Tests/"
+	]
+    },
     "minimum-stability": "dev"
 }
