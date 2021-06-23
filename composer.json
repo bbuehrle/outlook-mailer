@@ -1,0 +1,19 @@
+{
+    "name": "bbuehrle/outlook-mailer",
+    "description": "Symfony Outlook Mailer Bridge",
+    "type": "symfony-bridge",
+    "require": {
+        "symfony/mailer": "^4.4|^5.0"
+    },
+    "require-dev": {
+        "symfony/http-client": "^4.4|^5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Buehrle",
+            "email": "bbueh02@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
