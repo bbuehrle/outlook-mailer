@@ -3,6 +3,7 @@
     "description": "Symfony Outlook Mailer Bridge",
     "type": "symfony-bridge",
     "require": {
+	"php": ">=7.2.5",
         "symfony/mailer": "^4.4|^5.0"
     },
     "require-dev": {
@@ -21,5 +22,5 @@
 	    "/Tests/"
 	]
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
